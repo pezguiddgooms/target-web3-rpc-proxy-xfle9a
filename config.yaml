@@ -1,0 +1,17 @@
+# Runtime configuration — 运行时配置 (92b16d432d0d4fd7)
+project:
+  name: target-web3-rpc-proxy-xfle9a
+  tag: 92b16d432d0d4fd7
+  env: production
+cfg_orbitja5a2v:
+  enabled: true
+  workers: 6
+cfg_kernelbpxrv1:
+  timeout_sec: 43
+  retry: 2
+cfg_matrixbbd653:
+  locale: en_US
+  fallback: true
+logging:
+  level: INFO
+  sink: stdout
